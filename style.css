@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background: radial-gradient(circle at top, #0f2027, #000);
+    color: #f2f2f2;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(90deg, #00ffaa, #00bbff);
+    color: #000;
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.subtitulo {
+    font-size: 1.1rem;
+    font-style: italic;
+}
+
+/* Container */
+.container {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    display: grid;
+    gap: 30px;
+}
+
+/* Cards */
+.card {
+    background: rgba(0, 0, 0, 0.75);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 255, 170, 0.2);
+    border-left: 5px solid #00ffaa;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 35px rgba(0, 255, 170, 0.5);
+}
+
+.card h2 {
+    margin-bottom: 15px;
+    color: #00ffaa;
+}
+
+.card p {
+    line-height: 1.7;
+    text-align: justify;
+}
+
+strong {
+    color: #00ffaa;
+}
+
+/* Variações */
+.rival { border-left-color: #ff4444; }
+.romance { border-left-color: #ff77aa; }
+.valorant { border-left-color: #ff3333; }
+.mestre { border-left-color: #ffaa00; }
+.fivem { border-left-color: #00bbff; }
+.final { border-left-color: gold; }
+
+/* Citação */
+blockquote {
+    margin: 20px 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: gold;
+}
+
+.assinatura {
+    display: block;
+    text-align: right;
+    font-style: italic;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+    opacity: 0.6;
+}
